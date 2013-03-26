@@ -1,0 +1,26 @@
+name: FlyLimiter
+version: 1.0
+description: Let players ride on other players.
+main: bob_puyon.FlyLimiter.FlyLimiter
+softdepend: [Vault]
+commands:
+  flylimiter:
+    description: This Plugin put a limit on Flyingtime by point system
+    usage: /flylimiter [operation]
+permissions:
+  flylimiter.list:
+    description: Allows you to show flyinguser
+    default: op
+  flylimiter.status:
+    description: Allows you to confirm flying state
+    default: op
+  flylimiter.buy:
+    description: Allows you to get flying privilege
+    default: op
+  flylimiter.*:
+    description: Allows you to all command
+    children:
+        flylimiter.list: true
+        flylimiter.status: true
+        flylimiter.buy: true
+
