@@ -26,7 +26,7 @@ public class EventListener implements Listener{
 			Player player = (Player)ev.getEntity();
 			if ( plg.fallingPlayers.contains(player.getName()) ) {
 				ev.setCancelled(true);
-				plg.getLogger().info("Preventing " + Integer.toString(ev.getDamage()) + " Fall Damage from" + player.getName() );
+				plg.getLogger().info("Preventing " + Double.toString(ev.getDamage()) + " Fall Damage from" + player.getName() );
 				plg.fallingPlayers.remove( player.getName() );
 			}
 		}

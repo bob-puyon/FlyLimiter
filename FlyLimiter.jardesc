@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <jardesc>
-    <jar path="D:/Downloads/Minecraft/ServerTest/plugins/update/FlyLimiter.jar"/>
+    <jar path="D:/MinecraftServer/plugins/update/FlyLimiter.jar"/>
     <options buildIfNeeded="true" compress="true" descriptionLocation="/FlyLimiter/FlyLimiter.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
@@ -12,7 +12,5 @@
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
         <javaElement handleIdentifier="=FlyLimiter/src"/>
-        <file path="/FlyLimiter/plugin.yml"/>
-        <file path="/FlyLimiter/config.yml"/>
     </selectedElements>
 </jardesc>
